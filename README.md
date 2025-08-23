@@ -12,6 +12,9 @@ The dashboard is designed to help users quickly understand:
 - A comparison of hourly vs yearly pay for various positions  
 - Long-term salary movements using sparklines  
 
+![Data Jobs Dashboard](/Dashboard.png) 
+
+
 ## Dataset  
 
 The data for this dashboard comes from the following source:  
@@ -151,7 +154,6 @@ Together, these visuals provide a comprehensive overview of:
 This combination makes the dashboard valuable both for **job seekers** exploring opportunities and for **analysts** studying hiring trends in the data industry.  
  
 
-![Data Jobs Dashboard](/Dashboard.png) 
 
 
 ## Drill-Through Page  
