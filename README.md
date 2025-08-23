@@ -14,6 +14,12 @@ The dashboard is designed to help users quickly understand:
 
 ![Data Jobs Dashboard](/Dashboard.png) 
 
+## Power BI Dashboard  
+
+You can download and explore the dashboard here:  
+[Download Dashboard.pbix](Data_Jobs.pbix)  
+
+
 
 ## Dataset  
 
