@@ -346,6 +346,7 @@ mplp.xlabel("Median Salary")
 mplp.ylabel("Job Skills")
 mplp.show()
 ```
+</details>  
 
 ### Visualization  
 The chart shows two bars for each skill: one representing the median salary for **Data Analysts**, and the other for **Senior Data Analysts**.  
