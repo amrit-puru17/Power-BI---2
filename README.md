@@ -48,7 +48,7 @@ The dataset includes the following columns:
 This Power BI dashboard provides insights into the demand and compensation trends for data-related roles.  
 It consolidates job postings data to highlight job availability, salary comparisons, and growth patterns across different job titles in the data industry.  
 
-![Data Jobs Dashboard](/Power-BI_2/Dashboard.png) 
+![Data Jobs Dashboard](/Dashboard.png) 
 
 
-![Data Jobs Dashboard](/Power-BI_2/Drill_through.png) 
+![Data Jobs Dashboard](/Drill_through.png) 
