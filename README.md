@@ -24,50 +24,6 @@ The data for this dashboard comes from the following source:
 This dataset contains job postings related to data roles, including job titles, salaries (hourly and yearly), and posting dates.  
 It was cleaned and transformed before being loaded into Power BI for visualization. 
 
---------------------
-## Tools & Technologies Used  
-
-This project was built using a combination of data transformation, analysis, and visualization tools. Each played a key role in preparing, processing, and presenting insights:  
-
-### 1. Power Query  
-- Used inside **Power BI** for initial data cleaning and preprocessing.  
-- Changed data types to appropriate formats (e.g., dates, numbers, text).  
-- Replaced `NaN` / null values with defaults or meaningful replacements.  
-- Filtered irrelevant rows and standardized column naming conventions.  
-- Merged datasets
-- Created Datasets from the main data source like `skills_dim`,`skills_job_dim`.
-- Unpivoted `skill_jobs` for skills analysis.
-
-### 2. DAX (Data Analysis Expressions)  
-- Created calculated measures and columns for advanced metrics.  
-- Built dynamic KPIs such as:  
-  - Median salaries by role  
-  - Adjusted yearly salaries (hourly × 2080)  
-  - Percentage of postings offering remote work, health insurance, etc.  
-- Implemented **field parameters** to enable interactive switching between measures.  
-- Designed drill-through functionality for job-specific analysis.  
-
-### 3. Python  
-- Integrated via **Power BI Python Script Editor** for advanced data analysis and custom visuals.  
-- Exploded lists (e.g., `job_skills`) into rows for skill-based salary analysis.  
-- Performed groupby aggregations and median calculations by role and skill.  
-- Created custom visualizations with **Seaborn** and **Matplotlib** (e.g., Junior vs Senior salary by skills).  
-
-### 4. Power BI Desktop  
-- Built interactive dashboards and drill-through pages.  
-- Created visuals such as bar charts, scatter plots, maps, and trend analyses.  
-- Designed an intuitive layout with slicers and filters for user interaction.  
-- Integrated multiple pages for both **overview dashboards** and **detail pages**.  
-
-### 5. Git & GitHub  
-- Version control to track progress and maintain reproducibility.  
-- Repository hosts the project files, Python scripts, and `README.md` documentation.  
-- Enables collaboration and sharing of the project.  
-
----
-
-This combination of tools allowed me to **clean**, **transform**, **analyze**, and **visualize** the dataset efficiently, while ensuring the insights were both accurate and interactive.  
-
 
 ## Dataset Details  
 
@@ -357,7 +313,51 @@ The chart shows two bars for each skill: one representing the median salary for 
 - Certain skills (such as SQL, Python, or Tableau) are associated with higher salaries.  
 - Ordering by Senior Analyst salary highlights which skills command the greatest pay premium.  
 
-This visualization provides insight into how **specific skills influence salary levels** within junior and senior analyst positions.  
+This visualization provides insight into how **specific skills influence salary levels** within junior and senior analyst positions.
+
+## Tools & Technologies Used  
+
+This project was built using a combination of data transformation, analysis, and visualization tools. Each played a key role in preparing, processing, and presenting insights:  
+
+### 1. Power Query  
+- Used inside **Power BI** for initial data cleaning and preprocessing.  
+- Changed data types to appropriate formats (e.g., dates, numbers, text).  
+- Replaced `NaN` / null values with defaults or meaningful replacements.  
+- Filtered irrelevant rows and standardized column naming conventions.  
+- Merged datasets
+- Created Datasets from the main data source like `skills_dim`,`skills_job_dim`.
+- Unpivoted `skill_jobs` for skills analysis.
+
+### 2. DAX (Data Analysis Expressions)  
+- Created calculated measures and columns for advanced metrics.  
+- Built dynamic KPIs such as:  
+  - Median salaries by role  
+  - Adjusted yearly salaries (hourly × 2080)  
+  - Percentage of postings offering remote work, health insurance, etc.  
+- Implemented **field parameters** to enable interactive switching between measures.  
+- Designed drill-through functionality for job-specific analysis.  
+
+### 3. Python  
+- Integrated via **Power BI Python Script Editor** for advanced data analysis and custom visuals.  
+- Exploded lists (e.g., `job_skills`) into rows for skill-based salary analysis.  
+- Performed groupby aggregations and median calculations by role and skill.  
+- Created custom visualizations with **Seaborn** and **Matplotlib** (e.g., Junior vs Senior salary by skills).  
+
+### 4. Power BI Desktop  
+- Built interactive dashboards and drill-through pages.  
+- Created visuals such as bar charts, scatter plots, maps, and trend analyses.  
+- Designed an intuitive layout with slicers and filters for user interaction.  
+- Integrated multiple pages for both **overview dashboards** and **detail pages**.  
+
+### 5. Git & GitHub  
+- Version control to track progress and maintain reproducibility.  
+- Repository hosts the project files, Python scripts, and `README.md` documentation.  
+- Enables collaboration and sharing of the project.  
+
+---
+
+This combination of tools allowed me to **clean**, **transform**, **analyze**, and **visualize** the dataset efficiently, while ensuring the insights were both accurate and interactive.  
+
 
 
 ### Final Conclusions  
